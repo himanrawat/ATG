@@ -1,0 +1,58 @@
+.navbar {
+  height: 72px;
+}
+
+.custom-form-control {
+  width: 360px;
+  height: 42px;
+  left: 540px;
+  top: 16px;
+  background: #f2f2f2;
+  border-radius: 21px;
+  border: 0px;
+  color: #5c5c5c;
+}
+
+.custom-form-control:focus {
+  background-color: #f2f2f2;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+.search-box {
+  background: #f2f2f2;
+  border-radius: 21px;
+}
+
+.search-box,
+.search-box > input {
+  background-color: #f2f2f2;
+}
+
+.search-icon {
+  margin: 0px 0.5rem;
+}
+
+:focus-visible {
+  outline: 0px;
+}
+
+.modalBtn {
+  color: #2f6ce5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 736px;
+    margin: 1.75rem auto;
+  }
+}
+
+.modalClose {
+  border-radius: 50%;
+  text-align: right;
+  background-color: #fff;
+}

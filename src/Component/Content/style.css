@@ -1,0 +1,172 @@
+.card-heading {
+  display: flex;
+}
+
+.card-heading button {
+  background: none;
+  border: none;
+}
+.dropdownToggle::after {
+  content: none;
+}
+
+.active {
+  background: #bfc0c0;
+  border-radius: 4px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #fff;
+}
+
+.profile {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.share {
+  width: 42px;
+  height: 36px;
+  border-radius: 2px;
+  border: none;
+  background-color: #edeef0;
+}
+
+.timeline-location {
+  display: flex;
+}
+
+.timeline,
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.customBtn,
+.customBtn:hover {
+  background: #ffffff;
+  border: 0.7px solid #a9aeb8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #e56135;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.customBtn-check:focus + .customBtn,
+.customBtn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.inputField {
+  border-bottom: 0.4px solid #b8b8b8;
+}
+
+.formInput {
+  border: none;
+}
+
+.formInput:focus {
+  box-shadow: none;
+}
+
+.formBtn {
+  background: none;
+  border: none;
+}
+
+.textGroup {
+  display: flex;
+  color: #000000;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.navTabs .navLink {
+  background: none;
+  border: none;
+}
+
+.navTabs {
+  color: #8a8a8a;
+  border-bottom: 1px solid #8a8a8a;
+}
+.navLink {
+  color: #8a8a8a;
+}
+
+.navLink:hover {
+  color: #000;
+}
+
+.navItem {
+  cursor: pointer;
+}
+
+.navTabActive {
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  color: #000;
+}
+
+.navTabActive a {
+  color: #000;
+}
+
+.navItem {
+  padding-bottom: 20px;
+}
+
+.active {
+  color: #000;
+}
+
+.post-btn {
+  width: 133px;
+  height: 36px;
+  background: #edeef0;
+  border-radius: 4px;
+}
+.group-btn {
+  /* width: 125px; */
+  height: 36px;
+  background: #2f6ce5;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.group-btn:hover {
+  color: #fff;
+}
+
+.post-btn:focus {
+  box-shadow: none;
+}
+
+.group-btn:focus {
+  box-shadow: none;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 1em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .row > * {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}

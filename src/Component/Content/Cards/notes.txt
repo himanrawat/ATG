@@ -1,0 +1,70 @@
+<img src={props.banner} className='card-img-top' alt='...' />
+      <div className='card-body'>
+        <h6>{props.topHead}</h6>
+        <div className='card-heading'>
+          <span>
+            <h5 className='card-title'>{props.heading}</h5>
+          </span>
+          <span className='ms-auto'>
+            <div className='btn-group' role='group'>
+              <button
+                id='btnGroupDrop1'
+                type='button'
+                className=' dropdown-toggle'
+                data-bs-toggle='dropdown'
+                aria-expanded='false'
+              >
+                <img src={props.threeDots} alt='Three Dots' />
+              </button>
+              <ul className='dropdown-menu' aria-labelledby='btnGroupDrop1'>
+                <li>
+                  <a className='dropdown-item'>Edit</a>
+                </li>
+                <li>
+                  <a className='dropdown-item'>Report</a>
+                </li>
+                <li>
+                  <a className='dropdown-item'>Option 3</a>
+                </li>
+              </ul>
+            </div>
+          </span>
+        </div>
+        <p className='card-text'>{props.cardText}</p>
+        <div className='timeline-location'>
+          <div className='timeline'>
+            <span>
+              <img src={props.timeline} alt='calender' />
+            </span>
+            <span>
+              <p className='fw-bold my-auto mx-2'>{props.time}</p>
+            </span>
+          </div>
+          <div className='location mx-auto'>
+            <span>
+              <img src={props.locationImg} alt='Location' />
+            </span>
+            <span>
+              <p className='fw-bold my-auto mx-2'>{props.locationText}</p>
+            </span>
+          </div>
+        </div>
+        <div className='d-grid gap-2 my-3'>
+          <button className='btn ' type='button'>
+            {props.btn}
+          </button>
+        </div>
+
+        <div className='card-footer px-0'>
+          <span className='profile'>
+            <img src={props.profileImg} alt='Sarthak' />
+            <p className='my-auto mx-2 fw-bold'>{props.profile}</p>
+          </span>
+          <span className='views-share ms-auto'>
+            <img src={props.views} alt='views' className='me-5' />
+            <button className='share'>
+              <img src={props.share} alt='share' />
+            </button>
+          </span>
+        </div>
+      </div>
